@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>백미당</title>
+        <link rel="shortcut icon" href="images/common/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="images/common/favicon_ios.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="images/common/favicon_android.png">
+        <link rel="stylesheet" href="css/ui.totop.css">
+        <link rel="stylesheet" href="css/jquery.bxslider.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/easing.js"></script>
+        <script src="js/jquery.ui.totop.js"></script>
+        <script src="js/jquery.bxslider.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="popup">
+            <div class="linebox">
+                <h1>백미당로고</h1>
+                <p>
+                    본 사이트는 상업적 목적이 아닌<br>
+                    <span class="brown">개인 포트폴리오 용도</span>로 만들어 졌습니다.<br>
+                    홈페이지의 일부내용과 이미지 등은 <br>
+                    <span class="brown">그 출처가 따로 있음</span>을 밝힙니다.<br>
+                    본 사이트는 <span class="brown">HTML5</span>와 <span class="brown">CSS3</span>를 기준으로 하여<br>
+                    크롬, 사파리, 오페라, 파이어폭스, IE9이상의 브라우저에<br>
+                    맞춘 <span class="brown">반응형 웹 홈페이지</span> 입니다.
+                </p>
+                <a href="#today" class="today">오늘하루보이지않기</a>
+                <a href="#popupclose" class="popupclose">닫기 X</a>
+            </div>
+        </div>
+        <div class="panel">
+            <h1><a href="index.html"><img src="images/common/header_logo.png" alt="백미당로고"></a></h1>
+            <a href="#close"><img src="images/common/panel_close_btn.png" alt="닫기"></a>
+            <ul class="panellogin">
+                <li class="user"><img src="images/common/panel_user_icon.png" alt="유저아이콘"></li>
+                <li class="loginchk">로그인이 필요합니다</li>
+                <li class="loginsubmit">
+                    <input type="submit" value="로그인">
+                </li>
+            </ul>
+            <nav>
+                <ul class="pgnb">
+                    <li class="pgnb01">
+                        <h2>브랜드소개<img src="images/common/panel_over_arrow.png" alt="오른쪽화살표"></h2>
+                        <ul class="psubnav">
+                            <li><a href="#story02">View Our Story</a></li>
+                            <li><a href="#insta03">백미당 Instagram</a></li>
+                            <li><a href="#facebook03">백미당 Facebook</a></li>
+                        </ul>
+                    </li>
+                    <li class="pgnb02">
+                        <h2>메뉴안내<img src="images/common/panel_over_arrow.png" alt="오른쪽화살표"></h2>
+                        <ul class="psubnav">
+                            <li><a href="#coffee02">Coffee</a></li>
+                            <li><a href="#icecream02">백미당 아이스크림</a></li>
+                            <li><a href="#desser02">토핑 디저트</a></li>
+                            <li><a href="#bakery02">베이커리</a></li>
+                            <li><a href="#shake02">Soft Shake</a></li>
+                        </ul>
+                    </li>
+                    <li class="pgnb03">
+                        <h2>매장안내<img src="images/common/panel_over_arrow.png" alt="오른쪽화살표"></h2>
+                        <ul class="psubnav">
+                            <li><a href="#seoul02">서울지역</a></li>
+                            <li><a href="#gyeonggi02">경기·인천지역</a></li>
+                            <li><a href="#chungbuk02">영남·충청·호남지역</a></li>
+                        </ul>
+                    </li>
+                    <li class="pgnb04">
+                        <h2>백미당소식<img src="images/common/panel_over_arrow.png" alt="오른쪽화살표"></h2>
+                        <ul class="psubnav">
+                            <li><a href="#notice02">공지사항</a></li>
+                            <li><a href="#pevent">이벤트</a></li>
+                        </ul>
+                    </li>
+                    <li class="pgnb05">
+                        <h2>백미당공방<img src="images/common/panel_over_arrow.png" alt="오른쪽화살표"></h2>
+                        <ul class="psubnav">
+                            <li><a href="#baekmid03">백미당공방</a></li>
+                            <li><a href="#cur02">밀크앤컬쳐</a></li>
+                        </ul>
+                    </li>
+                    <li class="psns psns01"><a href="#pinstagram"><img src="images/common/panel_insta_icon.png" alt="인스타아이콘"></a></li>
+                    <li class="psns"><a href="#pfackbook"><img src="images/common/panel_facebook_icon.png" alt="페이스북아이콘"></a></li>
+                </ul>
+            </nav>
+        </div>
+    <div class="bodywrap">
+        <div class="blackBg">
+            
+        </div>
+        <header>
+            <div class="htline"></div>
+            <div class="htop">
+                <div class="wrap">
+                    <h1>
+                        <a href="index.html"><img src="images/common/header_logo.png" alt="백미당로고"></a>
+                    </h1>
+                    <a class="tmenu" href="#tmenu">
+                        <img src="images/common/header_tablet_menu.png" alt="메뉴열기버튼">
+                    </a>
+                    <ul class="left">
+                        <li class="insta">
+                            <a href="#insta" title="인스타바로가기"></a>
+                        </li>
+                        <li class="facebook">
+                            <a href="#facebook" title="페이스북바로가기"></a>
+                        </li>
+                    </ul>
+                    <ul class="right">
+                        <li class="login"><a href="#login" title="로그인"></a></li>
+                        <li class="join"><a href="#join" title="회원가입"></a></li>
+                        <li class="sitemap"><a href="#sitemap" title="맵 전체보기"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hbottom">
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <a href="#brand" class="close">브랜드소개</a>
+                            <div class="subnav">
+                                <div class="title">
+                                    <span>브랜드소개</span>
+                                    <p>신선한 재료 100% 유기농 원료<br>백미당을 소개합니다</p>
+                                </div>
+                                <ul class="text">
+                                    <li><a href="#story">View Our Story</a></li>
+                                    <li><a href="#insta02">백미당 Instagram</a></li>
+                                    <li class="last"><a href="#facebook02">백미당 Facebook</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#menu" class="a">메뉴안내</a>
+                            <div class="subnav">
+                                <div class="title">
+                                    <span>메뉴안내</span>
+                                    <p>신선한 재료 100% 유기농 원료<br>백미당을 소개합니다</p>
+                                </div>
+                                <ul class="text">
+                                    <li><a href="#coffee">Coffee</a></li>
+                                    <li><a href="#icecream">백미당 아이스크림</a></li>
+                                    <li><a href="#toppingdessert">토핑 디저트</a></li>
+                                    <li><a href="#bakery">베이커리</a></li>
+                                    <li class="last"><a href="#softshake">Soft Shake</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#store">매장안내</a>
+                            <div class="subnav">
+                                <div class="title">
+                                    <span>매장안내</span>
+                                    <p>신선한 재료 100% 유기농 원료<br>백미당을 소개합니다</p>
+                                </div>
+                                <ul class="text">
+                                    <li><a href="#seoul">서울지역</a></li>
+                                    <li><a href="#gyeonggi">경기·인천지역</a></li>
+                                    <li class="last"><a href="#chungbuk">영남·충청·호남지역</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#notice">백미당소식</a>
+                            <div class="subnav">
+                                <div class="title">
+                                    <span>백미당소식</span>
+                                    <p>신선한 재료 100% 유기농 원료<br>백미당을 소개합니다</p>
+                                </div>
+                                <ul class="text">
+                                    <li><a href="#notice">공지사항</a></li>
+                                    <li class="last"><a href="#event">이벤트</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#baekmidang">백미당공방</a>
+                            <div class="subnav">
+                                <div class="title">
+                                    <span>백미당공방</span>
+                                    <p>신선한 재료 100% 유기농 원료<br>백미당을 소개합니다</p>
+                                </div>
+                                <ul class="text">
+                                    <li><a href="#baekmi">백미당공방</a></li>
+                                    <li class="last"><a href="#cur">밀크앤컬쳐</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="subbg">
+                        <ul>
+                            <li class="event01">
+                                <a href="#event01"></a>
+                            </li>
+                            <li class="event02">
+                                <a href="#event02"></a>
+                            </li>
+                            <li class="event03 alllast">
+                                <a href="#event03"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="mslider">
+            <ul class="slider">
+                <li class="ms01">
+                    <img class="tmslider" src="images/main/main_tablet_image_01.jpg" alt="백미당 유기농우유가 든 소프트아이스크림과 초코아이스크림을 그대로 담아 이젠 집에서도 프리미엄한 디저트 식문화를 경험해보세요!">
+                    <img class="mmslider" src="images/main/main_mobile_image_01.jpg" alt="백미당 유기농우유가 든 소프트아이스크림과 초코아이스크림을 그대로 담아 이젠 집에서도 프리미엄한 디저트 식문화를 경험해보세요!">
+                    <p class="pmslider">
+                        <span class="title">1964백미당</span>백미당 유기농우유가 든 소프트아이스크림과 초코아이스크림을 그대로 담아 이젠 집에서도 프리미엄한 디저트 식문화를 경험해보세요!
+                    </p>
+                </li>
+                <li class="ms02">
+                    <span></span>
+                    <img class="tmslider" src="images/main/main_tablet_image_02.jpg" alt="고소하고 맛있는 백미당 유기농우유와 신선한 재료로 만든 우유">
+                    <img class="mmslider" src="images/main/main_mobile_image_02.jpg" alt="고소하고 맛있는 백미당 유기농우유와 신선한 재료로 만든 우유">
+                    <p class="pmslider">
+                        <span class="color">고소하고 맛있는 백미당 유기농우유와</span>신선한 재료로 만든 우유
+                    </p>
+                </li>
+                <li class="ms03">
+                    <img class="tmslider" src="images/main/main_tablet_image_03.jpg" alt="100% 유기농카카오빈과 100% 유기농우유 이제는 생초콜릿도 100% 유기농 원료로만 만들었습니다.">
+                    <img class="mmslider" src="images/main/main_mobile_image_03.jpg" alt="100% 유기농카카오빈과 100% 유기농우유 이제는 생초콜릿도 100% 유기농 원료로만 만들었습니다.">
+                    <p class="pmslider">
+                        백미당 생초콜릿<span class="size">100% 유기농카카오빈과 100% 유기농우유<br> 이제는 생초콜릿도 100% 유기농<br> 원료로만 만들었습니다</span>
+                    </p>
+                </li>
+                <li class="ms04">
+                    <img class="tmslider" src="images/main/main_tablet_image_04.jpg" alt="유기농 우전차와 유기농 우엉차 검은콩현미 그라놀라로 건강하게 구성된 선물세트!">
+                    <img class="mmslider" src="images/main/main_mobile_image_04.jpg" alt="유기농 우전차와 유기농 우엉차 검은콩현미 그라놀라로 건강하게 구성된 선물세트!">
+                    <p class="pmslider">
+                        <span class="sizecolor">유기농 우전차와 유기농 우엉차</span>검은콩현미 그라놀라로 건강하게 구성된 선물세트!
+                    </p>
+                    <span></span>
+                </li>
+            </ul>
+        </div>
+        <ul class="menucontent">
+            <li class="menuimage01">
+                <img src="images/main/menu_tablet&mobile_image_01.jpg" alt="new menu">
+                <h3>New Menu</h3>
+                <p class="pnewmenu">
+                    백미당 유기농 우유 아이스크림과 초코 아이스크림<br>이젠 집에서도 즐기세요 
+                </p>
+                <p class="tmnewmenu">
+                    백미당 유기농 우유 아이스크림과<br>초코 아이스크림이젠 집에서도 즐기세요 
+                </p>
+            </li>
+            <li class="menuimage02">
+                <img src="images/main/menu_tablet&mobile_image_02.jpg" alt="coffee">
+                <div class="menuover">
+                    <h3>coffee</h3>
+                    <p>
+                        "라떼가 맛있는 백미당"<br>
+                        산지별 유기농 원두의 특징을 조화롭게<br>
+                        살린 '1964 블렌드'와<br>
+                        유기농 우유에 대한 전문성을 바탕으로<br>
+                        개발된 백미당만의 커피입니다.<br>
+                    </p>
+                    <a href="#submenu01"><span class="arrow"></span></a>
+                </div>
+            </li>
+            <li class="menuimage03">
+                <img src="images/main/menu_tablet&mobile_image_03.jpg" alt="topping dessert">
+                <div class="menuover">
+                    <h3>Topping Dessert</h3>
+                    <p>
+                        제철 과일과 제철 식제료를 활용하여,<br>
+                        그 계절에만 느낄 수 있는 풍미를<br>
+                        가득 담은 창의적인 백미당의<br>
+                        대표 生 디저트 메뉴입니다.<br>
+                    </p>
+                    <a href="#submenu02"><span class="arrow"></span></a>
+                </div>
+            </li>
+            <li class="menuimage04">
+                <img src="images/main/menu_tablet&mobile_image_04.jpg" alt="ice cream">
+                <div class="menuover">
+                    <h3>Ice Cream</h3>
+                    <p>
+                        유기축산물 인증을 받은 목장에서<br>
+                        키운 젖소의 유기농 우유를 사용하여<br>
+                        백미당 소프트 아이스크림만의<br>
+                        깊고 진한 유풍미를 담았습니다.<br>
+                    </p>
+                    <a href="#submenu03"><span class="arrow"></span></a>
+                </div>
+            </li>
+            <li class="menuimage05">
+                <img src="images/main/menu_tablet&mobile_image_05.jpg" alt="milk">
+                <div class="menuover">
+                    <h3>milk</h3>
+                    <p>
+                        고소하고 맛있는<br>
+                        백미당 유기농 우유와<br>
+                        신선한 재료로 만든 우유로<br>
+                        여러가지 맛을 즐길 수 있습니다.<br>
+                    </p>
+                    <a href="#submenu04"><span class="arrow"></span></a>
+                </div>
+            </li>
+            <li class="menuimage06">
+                <img src="images/main/menu_tablet&mobile_image_06.jpg" alt="bakery">
+                <div class="menuover">
+                    <h3>Bakery</h3>
+                    <p>
+                        고소한 원재료들의 풍미와 부드러운 식감을 자연스럽게 표현한 Dessert.<br>
+                        엄선한 국내산 곡물과의 조화를 통해 최적의 한국적인 맛 밸런스와 건강함을 전합니다
+                    </p>
+                    <a href="#submenu05"><span class="arrow"></span></a>
+                </div>
+            </li>
+        </ul>
+        <div class="farm">
+            <img class="tfarmbg" src="images/main/farm_bg_tablet_image.jpg" alt="farm image">
+            <img class="mfarmbg" src="images/main/farm_bg_mobile_image.jpg" alt="farm image">
+            <span class="bgopacity"></span>
+            <h3>FROM THE FARM</h3>
+            <p>백미당의 모든 원료는 좋은 원료에 대한 고지식함에서 시작됩니다</p>
+        </div>
+        <ul class="sns">
+            <li class="sns01 tcol02 mcol02">
+                <a href="#sns01">
+                    <img src="images/main/sns_image_01.png" alt="백미당 생초콜릿">
+                </a>
+                <div>
+                    <h3>유기농 생초콜릿 출시</h3>
+                    <p class="pttext">
+                        #Organic #chocolate<br>#baekmidang<br>#organicmilk<br>  #organiccacao<br>#authentic
+                    </p>
+                    <p class="mtext">
+                        #Organic<br> #chocolate<br>#baekmidang<br>#organicmilk<br>  #organiccacao<br>#authentic
+                    </p>
+                    <a class="snsinsta" href="#insta01"></a>
+                </div>
+            </li>
+            <li class="sns02 tcol02 mcol02">
+                <a href="#sns02">
+                    <img src="images/main/sns_image_02.png" alt="햄에그치아바타 햄치즈 치아바타">
+                </a>
+                <div>
+                    <h3>햄&amp;에그 치아바타<br>햄&amp;치즈 치아바타 판매 게시</h3>
+                    <p class="pttext">
+                        #백미당 #햄앤에그치아바타<br>#햄앤치즈치아바타<br>#백미당공방 #수제치아바타<br>#한끼든든
+                    </p>
+                    <p class="mtext">
+                        #백미당<br>#햄앤에그치아바타<br>#햄앤치즈치아바타<br>#백미당공방<br>#수제치아바타<br>#한끼든든
+                    </p>
+                    <a class="snsfacebook" href="#facebook01"></a>
+                </div>
+            </li>
+            <li class="sns03 tcol02 mcol02">
+                <a href="#sns03">
+                    <img src="images/main/sns_image_03.png" alt="유기농우전차">
+                </a>
+                <div>
+                    <h3>유기농 우전차</h3>
+                    <p class="pttext">
+                        #우전차 #雨前茶<br>#16일 #백미당<br>#1964백미당
+                    </p>
+                    <p class="mtext">
+                        #우전차<br>#雨前茶<br>#16일<br>#백미당<br>#1964백미당
+                    </p>
+                    <a class="snsinsta" href="#insta02"></a>
+                </div>
+            </li>
+            <li class="sns04 tcol02 mcol02">
+                <a href="#sns04">
+                    <img src="images/main/sns_image_04.png" alt="유기농 우유 아이스크림">
+                </a>
+                <div>
+                    <h3>유기농 우유 아이스크림<br>팥빙수</h3>
+                    <p class="pttext">
+                        #유기농우유 #유기농우유빙수<br>#소프트아이스크림<br>#아이스크림빙수<br>#백미당 #직접쑨팥#<br>#1964백미당
+                    </p>
+                    <p class="mtext">
+                        #유기농우유<br>#유기농우유빙수<br>#소프트아이스크림<br>#아이스크림빙수<br>#백미당 #직접쑨팥<br>#1964백미당
+                    </p>
+                    <a class="snsfacebook" href="#facebook02"></a>
+                </div>
+            </li>
+        </ul>
+        <div class="video">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/main/video_opacity_height.jpg" alt="투명이미지">
+                        <iframe class="player01" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBaekmidang%2Fvideos%2F629913557359220%2F&show_text=0" scrolling="no"></iframe>
+                        <h3 class="pvideo">Organic Milk &amp; Fresh Topping</h3>
+                        <h3 class="tvideo">Organic Milk &amp;<br> Fresh Topping</h3>
+                        <p class="pvideotext">
+                            100% 유기농 우유, 신선한 계절 과일 그리고<br>
+                            엄선된 식재료의 풍미를 한병에 담았습니다.<br><br>
+
+                            유기농원두로 추출한 에스프레소의 풍미가 가득 담긴<br>
+                            커피 우유, 직접 갈아 넣은 탄자니아 싱글오리진 카카오<br>
+                            75% 초콜릿의 진한 달콤함을 선사하는 생초코 우유, 제...
+                        </p>
+                        <p class="tvideotext">
+                            100% 유기농 우유, 신선한 계절 과일 그리고
+                            엄선된 식재료의 풍미를 한병에 담았습니다.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/main/video_opacity_height.jpg" alt="투명이미지">
+                        <iframe class="player02" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBaekmidang%2Fvideos%2F641318549552054%2F&show_text=0&" scrolling="no"></iframe>
+                        <h3 class="pvideo">고소함가득 견과류 우유</h3>
+                        <h3 class="tvideo">고소함가득<br>견과류 우유</h3>
+                        <p class="pvideotext">
+                            땅콩, 아몬드, 호두 등 다양한 견과류를 즉석에서<br>
+                            갈아넣어 견과류의 바삭한 느낌과 그 고소함을<br> 
+                            느껴볼 수 있습니다.<br><br>마시면 마실수록 더욱 깊어지는 고소함을 경험해보세요!<br>땅콩 알레르기가 있으신분은 주의 바랍니다!
+                        </p>
+                        <p class="tvideotext">
+                            땅콩, 아몬드, 호두 등 다양한 견과류를 즉석에서
+                            갈아넣어 견과류의 바삭한 느낌과 그 고소함을 
+                            느껴볼 수 있습니다.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/main/video_opacity_height.jpg" alt="투명이미지">
+                        <iframe class="player03" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBaekmidang%2Fvideos%2F470838656600045%2F&show_text=0&" scrolling="no"></iframe>
+                        <h3>백미당 공방</h3>
+                        <p class="pvideotext">
+                            평범한 오늘 밤을 특별한 밤으로 기억하고 싶다면<br>
+                            도산사거리 백미당 공방에 들러보세요<br><br>
+
+                            커다란 통창과 멋스러운 나뭇결로 둘러싸인 공간,<br>
+                            그리고 맛있는 백가지 이야기가<br>
+                            당신을 기다리고 있습니다
+                        </p>
+                        <p class="tvideotext">
+                            평범한 오늘 밤을 특별한 밤으로 기억하고 싶다면
+                            도산사거리 백미당 공방에 들러보세요
+                             맛있는 백가지 이야기가
+                            당신을 기다리고 있습니다
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <footer>
+            <h1><img src="images/common/footer_logo.png" alt="백미당로고"></h1>
+            <ul class="fpctext">
+                <li><a href="#a">이용약관</a></li>
+                <li>사업자등록번호 211-00-00000</li>
+                <li class="last">팩스 02-000-0000</li>
+            </ul>
+            <ul class="ftmtext">
+                <li class="first"><a href="#login02">로그인</a></li>
+                <li><a href="#a02">이용약관</a></li>
+            </ul>
+            <p class="callcenter">고객만족실<br>080-000-0000(수신자부담)<br>09:00 ~ 18:00 (토요일,일요일,공휴일 휴무)</p>
+            <p class="copyright">Copyright ⓒ 2014 1964baekmidang co, ltd. All rights reserved</p>
+        </footer>
+    </div>
+    </body>
+</html>
